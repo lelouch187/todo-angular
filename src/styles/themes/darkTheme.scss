@@ -11,3 +11,12 @@ $VeryDarkGrayishBlue: hsl(237, 14%, 26%);
 //  --textColor: #{$textColor_dark};
 //  --borderColor: #{$borderColor_dark};
 //}
+
+.main.dark {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  background: url("../../assets/images/bg-desktop-light.jpg") black no-repeat top;
+  background-size: 100% 40%;
+}
