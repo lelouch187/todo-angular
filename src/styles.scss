@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+@import "assets/styles/reset";
+@import "assets/styles/variables";
+
+:root{
+  font-size: 18px;
+  font-family: "JosefinSans-Regular", sans-serif;
+}
+//body.dark {
+//  @include darken();
+//}
+//
+//body.light {
+//  @include lighten();
+//}
+
+.container{
+  margin: 0 auto;
+  width: 600px;
+}
