@@ -4,13 +4,15 @@ import {Theme} from '../types/theme';
 import {NgClass} from '@angular/common';
 
 import {ThemeService} from './services/theme.service';
+import {CreateFormComponent} from './components/create-form/create-form.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [
     HeaderComponent,
-    NgClass
+    NgClass,
+    CreateFormComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'

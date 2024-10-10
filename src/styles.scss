@@ -6,13 +6,14 @@
   font-size: 18px;
   font-family: "JosefinSans-Regular", sans-serif;
 }
-//body.dark {
-//  @include darken();
-//}
-//
-//body.light {
-//  @include lighten();
-//}
+
+.main{
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: start;
+  flex-direction: column;
+}
 
 .container{
   margin: 0 auto;
