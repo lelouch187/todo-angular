@@ -1,3 +1,5 @@
-<main [ngClass]="theme=='light'?'main light':'main dark'">
-    <app-header class="header__wrapper"/>
+<main [ngClass]="theme==Theme.LIGHT?'main light':'main dark'">
+    <app-header [theme]="theme"
+      (toggleTheme)="toggleTheme($event)"
+      class="header__wrapper"/>
 </main>
